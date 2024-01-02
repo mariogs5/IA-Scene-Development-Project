@@ -13,6 +13,5 @@ Develop a free scene with lots of agents with the next constraints:
 - Seek
 - Patrolling
 - Flocking
-- Finite State Machines
 - Behaviour Trees (Behavior Bricks)
 - Formation Motion
