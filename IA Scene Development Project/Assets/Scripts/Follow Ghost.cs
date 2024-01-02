@@ -5,9 +5,6 @@ using UnityEngine;
 public class FollowGhost : MonoBehaviour
 {
     public GameObject Target;
-    public float xMax;
-    public float zMax;
-    Vector3 initpos;
 
     //Movement
     public float maxSpeed;
@@ -17,9 +14,7 @@ public class FollowGhost : MonoBehaviour
     private float angle;
 
     void Start()
-    {
-      
-    }
+    {}
 
     void Update()
     {

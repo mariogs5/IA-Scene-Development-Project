@@ -628,7 +628,7 @@ GameObject:
   - component: {fileID: 2602231374797837622}
   - component: {fileID: 2602231374797837611}
   - component: {fileID: -861020698165109854}
-  - component: {fileID: -5404730556795508168}
+  - component: {fileID: -3152137709907387113}
   m_Layer: 0
   m_Name: LittleGhost_LP (4)
   m_TagString: Untagged
@@ -720,7 +720,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &-5404730556795508168
+--- !u!114 &-3152137709907387113
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -729,14 +729,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 2602231374797837610}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9d34ea8946b99342913a23e79d362bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 81ed08279ce27504eba85196a80bb256, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 0}
-  xMax: 0
-  zMax: 0
-  maxSpeed: 0
-  maxRot: 0
+  cp:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &2602231374847269571
 GameObject:
   m_ObjectHideFlags: 0
